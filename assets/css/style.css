@@ -72,19 +72,14 @@ body {
         width: 100%;
     }
     .icons a{
-        font-size: 1rem;
-        padding-bottom: 0.2rem;
+        font-size: 1.5vw;
+        padding-bottom: 0.5vw;
     }
     #icons img{
-        width:14px;
-        height:14px;
+        width:2.2vw;
+        height:2.3vw;
         display: flex;
         flex-grow:;
-    }
-    #iconInfo a{
-        display: flex;
-        flex-grow:;
-        text-decoration: none;
     }
     #profileDescription{
         font-size: 1rem;
@@ -158,10 +153,6 @@ body {
     .Title3 a{
         font-size: 1rem;
     }
-    a{
-        font-size: 0.3rem;
-        padding-top: 0px;
-    }
     #socialdata ul li a{
         padding: 0px;
         height: 1px;
@@ -189,19 +180,14 @@ body {
         width: 100%;
     }
     .icons a{
-        font-size: 1rem;
+        font-size: 1.6vw;
         padding-bottom: 0.3rem;
     }
     #icons img{
-        width:15px;
-        height:15px;
+        width:2.2vw;
+        height:2.3vw;
         display: flex;
         flex-grow:;
-    }
-    #iconInfo a{
-        display: flex;
-        flex-grow:;
-        text-decoration: none;
     }
     #profileDescription{
         font-size: 1rem;
@@ -248,7 +234,7 @@ body {
         margin: 0rem;
     }
 }
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 725px) and (max-width: 868px) {
     p{
         font-size: 25rem;
     }
@@ -306,19 +292,14 @@ body {
         width: 100%;
     }
     .icons a{
-        font-size: 1.7vw;
+        font-size: 1.5vw;
         padding-bottom: 0.3rem;
     }
     #icons img{
         width:2.2vw;
-        height:2.2vw;
+        height:2.3vw;
         display: flex;
         flex-grow:;
-    }
-    #iconInfo a{
-        display: flex;
-        flex-grow:;
-        text-decoration: none;
     }
     #profileDescription{
         font-size: 1rem;
@@ -427,19 +408,14 @@ body {
         width: 100%;
     }
     .icons a{
-        font-size: 9px;
+        font-size: 1.6vw;
         padding-bottom: 0.2rem;
     }
     #icons img{
-        width:14px;
-        height:14px;
+        width:2.5vw;
+        height:2.5vw;
         display: flex;
         flex-grow:;
-    }
-    #iconInfo a{
-        display: flex;
-        flex-grow:;
-        text-decoration: none;
     }
     #profileDescription{
         font-size: 0.6rem;
@@ -515,10 +491,6 @@ body {
     .Title3 a{
         font-size: 1rem;
     }
-    a{
-        font-size: 0.3rem;
-        padding-top: 0px;
-    }
     #socialdata ul li a{
         padding: 0px;
         height: 1px;
@@ -546,19 +518,14 @@ body {
         width: 100%;
     }
     .icons a{
-        font-size: 10px;
+        font-size: 1.6vw;
         padding-bottom: 0.2rem;
     }
     #icons img{
-        width:14px;
-        height:14px;
+        width:2.5vw;
+        height:2.5vw;
         display: flex;
         flex-grow:;
-    }
-    #iconInfo a{
-        display: flex;
-        flex-grow:;
-        text-decoration: none;
     }
     #profileDescription{
         font-size: 0.6rem;
@@ -634,10 +601,6 @@ body {
     .Title3{
         font-size: 1rem;
     }
-    a{
-        font-size: 12px;
-        padding-top: 0px;
-    }
     #socialdata ul li a{
         padding: 0px;
         height: 1px;
@@ -665,20 +628,15 @@ body {
         width: 100%;
     }
     .icons a{
-        font-size: 0.85rem;
-        padding-bottom: 0.15rem;
+        font-size: 1.8vw;
     }
     #icons img{
-        width:13px;
-        height:13px;
+        width:2.5vw;
+        height:2.6vw;
         display: flex;
         flex-grow:;
     }
-    #iconInfo a{
-        display: flex;
-        flex-grow:;
-        text-decoration: none;
-    }
+    
     #profileDescription{
         font-size: 0.6rem;
     }
@@ -749,10 +707,6 @@ body {
     .Title3{
         font-size: 1rem;
     }
-    a{
-        font-size: 12px;
-        padding-top: 0px;
-    }
     #socialdata ul li a{
         padding: 0px;
         height: 1px;
@@ -780,19 +734,15 @@ body {
         width: 100%;
     }
     .icons a{
-        font-size: 0.85rem;
-        padding-bottom: 0.15rem;
+        font-size: 1.8vw;
+        padding-bottom: 0.2vw;
     }
     #icons img{
-        width:13px;
+        display :none;
+        /*width:13px;
         height:13px;
         display: flex;
-        flex-grow:;
-    }
-    #iconInfo a{
-        display: flex;
-        flex-grow:;
-        text-decoration: none;
+        flex-grow:;*/
     }
     #profileDescription{
         font-size: 0.6rem;
@@ -850,7 +800,7 @@ body {
         border-radius : 30% 0% 0% 0%;
     }
     aside{
-        width: 40%;
+        width: 20vw;
     }
     #name{
         font-size: 1.3rem;
@@ -867,10 +817,6 @@ body {
     }
     .Title3 a{
         font-size: 1rem;
-    }
-    a{
-        font-size: 0.3rem;
-        padding-top: 0px;
     }
     #socialdata ul li a{
         padding: 0px;
@@ -889,9 +835,6 @@ body {
         height: 4rem;
         width: 1rem;
     }
-    .socialData2{
-        padding-bottom: ;
-    }
     #linkedin{
         font-size: 10px;
         height: 30px;
@@ -902,7 +845,7 @@ body {
         width: 100%;
     }
     .icons a{
-        font-size: 70%;
+        font-size: 1.8vw;
         padding-bottom: 0.15rem;
     }
     #icons img{
@@ -911,11 +854,6 @@ body {
         height:11px;
         display: flex;
         flex-grow:;*/
-    }
-    #iconInfo a{
-        display: flex;
-        flex-grow:;
-        text-decoration: none;
     }
     #profileDescription{
         font-size: 0.6rem;
@@ -1038,6 +976,14 @@ aside {
 #contacts{
     padding-left: 1vw;
 }
+
+#iconInfo a{
+    display: flex;
+    flex-grow:;
+    text-decoration: none;
+    padding-bottom: 0.7vw;
+}
+
 #data {
     background:black;
     color: rgb(253, 253, 253);
