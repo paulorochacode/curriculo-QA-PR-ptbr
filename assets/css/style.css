@@ -31,9 +31,6 @@ body {
     #role{
         font-size: 1.0rem;
     }
-    #contacts{
-        padding-left: 0;
-    }
     .Title2{
         font-size: 1rem;
         padding-left: 1;
@@ -76,7 +73,6 @@ body {
     }
     .icons a{
         font-size: 1rem;
-        color: midnightblue;
         padding-bottom: 0.2rem;
     }
     #icons img{
@@ -152,9 +148,6 @@ body {
     #role{
         font-size: 2rem;
     }
-    #contacts{
-        padding-left: 0;
-    }
     .Title2{
         font-size: 1rem;
         padding-left: 1;
@@ -197,7 +190,6 @@ body {
     }
     .icons a{
         font-size: 1rem;
-        color: midnightblue;
         padding-bottom: 0.3rem;
     }
     #icons img{
@@ -273,9 +265,6 @@ body {
     #role{
         font-size: 2rem;
     }
-    #contacts{
-        padding-left: 0;
-    }
     .Title2{
         font-size: 1rem;
         padding-left: 1;
@@ -318,7 +307,6 @@ body {
     }
     .icons a{
         font-size: 1.7vw;
-        color: midnightblue;
         padding-bottom: 0.3rem;
     }
     #icons img{
@@ -398,9 +386,6 @@ body {
     #role{
         font-size: 1.0rem;
     }
-    #contacts{
-        padding-left: 0;
-    }
     .Title2{
         font-size: 1rem;
         padding-left: 1;
@@ -443,7 +428,6 @@ body {
     }
     .icons a{
         font-size: 9px;
-        color: midnightblue;
         padding-bottom: 0.2rem;
     }
     #icons img{
@@ -521,9 +505,6 @@ body {
     #role{
         font-size: 1.0rem;
     }
-    #contacts{
-        padding-left: 0;
-    }
     .Title2{
         font-size: 1rem;
         padding-left: 1;
@@ -566,7 +547,6 @@ body {
     }
     .icons a{
         font-size: 10px;
-        color: midnightblue;
         padding-bottom: 0.2rem;
     }
     #icons img{
@@ -647,9 +627,6 @@ body {
     #role{
         font-size: 1.0rem;
     }
-    #contacts{
-        padding-left: 0;
-    }
     .Title2{
         font-size: 1rem;
         padding-left: 1;
@@ -689,7 +666,6 @@ body {
     }
     .icons a{
         font-size: 0.85rem;
-        color: midnightblue;
         padding-bottom: 0.15rem;
     }
     #icons img{
@@ -766,9 +742,6 @@ body {
     #role{
         font-size: 1.0rem;
     }
-    #contacts{
-        padding-left: 0;
-    }
     .Title2{
         font-size: 1rem;
         padding-left: 1;
@@ -808,7 +781,6 @@ body {
     }
     .icons a{
         font-size: 0.85rem;
-        color: midnightblue;
         padding-bottom: 0.15rem;
     }
     #icons img{
@@ -886,9 +858,6 @@ body {
     #role{
         font-size: 1.0rem;
     }
-    #contacts{
-        padding-left: 0;
-    }
     .Title2{
         font-size: 1rem;
         padding-left: 1;
@@ -934,7 +903,6 @@ body {
     }
     .icons a{
         font-size: 70%;
-        color: midnightblue;
         padding-bottom: 0.15rem;
     }
     #icons img{
@@ -996,17 +964,15 @@ body {
 
 }
 
-
-
-/* div da imgaem*/
+/* Aside*/
 aside {
+    width: 33vw;
     background: white;
     min-height: 100%;
     align-items: center;
 }
 #intoDivLeft{
     background: black;
-    height: 100%;
     width: 100%;
 }
 .WordsAside{
@@ -1020,10 +986,23 @@ aside {
 
 /* backgroud da imagem*/
 #backgroudProfilePicture{
+    height: 20vw;
+    width: 33vw;
     background:black;
-
+    border-radius: 100% 0 0 0;
 }
-
+.profilePicture{
+    margin-bottom: 5vw ;
+    width: 20vw;
+    height: 20vw;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.5vw solid white;
+}
+#intoleft{
+    height: 100vh;
+    background: black;
+}
 #conteinerLeftTitle{
     background:black;
 }
@@ -1055,6 +1034,9 @@ aside {
 #role{
     font-weight: bolder;
     text-decoration: underline;
+}
+#contacts{
+    padding-left: 1vw;
 }
 #data {
     background:black;
@@ -1093,15 +1075,10 @@ aside {
     color: white;
     text-align: center;
     margin: 0px;
+    padding-top: 1vw;
 }
 
-.profilePicture{
-    width: 60%;
-    height: 60%;
-    align-items: center;
-    border-radius: 50%;
-    border:0.4% solid white;
-}
+
 .socialData{
     background: black;
     color: white;
@@ -1127,6 +1104,9 @@ aside {
 div.icons{
     background:black;
 }
+div.icons img{
+    padding: 0.1vw;
+}
 div.Comportament{
     background: black;
     color: white;
@@ -1144,6 +1124,10 @@ div.DivPercent{
     justify-content: space-around;
     margin: 1.0% 13.9% 1.0% 15%;
     
+}
+
+.icons a{
+    color:rgb(62, 62, 161) ;
 }
 #psicologicalProfile{
     background: black;
@@ -1176,6 +1160,8 @@ Div.DivCenterLink{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* Curriculo*/
 .Articles{
     background:white;
     width: 130%;
