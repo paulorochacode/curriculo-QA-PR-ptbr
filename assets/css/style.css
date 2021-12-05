@@ -2,6 +2,11 @@
 :root{
     font-size: 12px;
 }
+a{
+    color:rgb(96, 96, 201);
+    font-weight: bolder;
+    font-size: 1vw;
+}
 
 body {
     width: 100%;
@@ -14,904 +19,30 @@ body {
     justify-content: rigth;
 }
 
-@media only screen and (min-width: 900px) {
-    p{
-        font-size: 20rem;
-    }
-    aside{
-        width: 30%;
-    }
-    #backgroudProfilePicture{
-        text-align: center;
-        border-radius : 47% 0% 0% 0%;
-    }
-    #name{
-        font-size: 1.3rem;
-    }
-    #role{
-        font-size: 1.0rem;
-    }
-    .Title2{
-        font-size: 1rem;
-        padding-left: 1;
-    }
-    .Title3{
-        font-size: 1rem;
-    }
-    .Title3 a{
-        font-size: 1rem;
-    }
-    a{
-        font-size: 0.3rem;
-        padding-top: 0px;
-    }
-    #socialdata ul li a{
-        padding: 0px;
-        height: 1px;
-    }
-    #psicologicalProfile{
-        font-size: 0.3rem;
-    }
-    .SocialButton{
-        height: 0px;
-    }
-    #socialData li{
-        height: 4rem;
-        width: 1rem;
-    }
-    .socialData2{
-        height: 100%;
-    }
-    #linkedin{
-        font-size: 10px;
-        height: 30px;
-    }
-    .icons{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .icons a{
-        font-size: 1.5vw;
-        padding-bottom: 0.5vw;
-    }
-    #icons img{
-        width:2.2vw;
-        height:2.3vw;
-        display: flex;
-        flex-grow:;
-    }
-    #profileDescription{
-        font-size: 1rem;
-    }
-    #psicologicalProfile{
-        font-size: 1rem;
-    }
-    div.Comportament h3{
-        font-size: 0.9rem;
-    }
-    div.DivPercent{
-        font-size: 1.2rem;
-    }
-    Div.DivCenterLink a{
-        font-size: 1rem;
-    }
-    #principal{
-        width: 0%;
-    }
-    
-    #principal h1{
-        font-size: 1.4rem;
-        padding-right: 1rem;
-    }
-    #principal h3{
-        font-size: 1.4rem;
-    }
-    #principal h4{
-        font-size: 1.2rem;
-    }
-    #principal li{
-        font-size: 1.0rem;
-    }
-    ul {
-        padding-inline-start: 2rem;
-    }
-    p{
-        font-size: 1rem;
-    }
-    .Articles{
-        font-size: 30rem;
-    }
-    div.DivPercent{
-        margin: 0rem;
-    }
-}
-@media only screen and (min-width: 868px) {
-    p{
-        font-size: 25rem;
-    }
-    aside{
-        width: 27%;
-    }
-    #backgroudProfilePicture{
-        text-align: center;
-        border-radius : 30% 0% 0% 0%;
-    }
-    #name{
-        font-size: 2.5rem;
-    }
-    #role{
-        font-size: 2rem;
-    }
-    .Title2{
-        font-size: 1rem;
-        padding-left: 1;
-    }
-    .Title3{
-        font-size: 1rem;
-    }
-    .Title3 a{
-        font-size: 1rem;
-    }
-    #socialdata ul li a{
-        padding: 0px;
-        height: 1px;
-    }
-    #psicologicalProfile{
-        font-size: 0.3rem;
-    }
-    .SocialButton{
-        height: 0px;
-    }
-    #socialData li{
-        height: 4rem;
-        width: 1rem;
-    }
-    .socialData2{
-        height: 100%;
-    }
-    #linkedin{
-        font-size: 10px;
-        height: 30px;
-    }
-    .icons{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .icons a{
-        font-size: 1.6vw;
-        padding-bottom: 0.3rem;
-    }
-    #icons img{
-        width:2.2vw;
-        height:2.3vw;
-        display: flex;
-        flex-grow:;
-    }
-    #profileDescription{
-        font-size: 1rem;
-    }
-    #psicologicalProfile{
-        font-size: 1rem;
-    }
-    div.Comportament h3{
-        font-size: 0.9rem;
-    }
-    div.DivPercent{
-        font-size: 1rem;
-    }
-    Div.DivCenterLink a{
-        font-size: 1rem;
-    }
-    #principal{
-        width: 0%;
-    }
-    
-    #principal h1{
-        font-size: 1.4rem;
-        padding-right: 1rem;
-    }
-    #principal h3{
-        font-size: 1.4rem;
-    }
-    #principal h4{
-        font-size: 1.2rem;
-    }
-    #principal li{
-        font-size: 1.0rem;
-    }
-    ul {
-        padding-inline-start: 2rem;
-    }
-    p{
-        font-size: 1rem;
-    }
-    .Articles{
-        font-size: 30rem;
-    }
-    div.DivPercent{
-        margin: 0rem;
-    }
-}
-@media only screen and (min-width: 725px) and (max-width: 868px) {
-    p{
-        font-size: 25rem;
-    }
-    aside{
-        width: 33%;
-    }
-    #backgroudProfilePicture{
-        text-align: center;
-        border-radius : 30% 0% 0% 0%;
-    }
-    #name{
-        font-size: 2.5rem;
-    }
-    #role{
-        font-size: 2rem;
-    }
-    .Title2{
-        font-size: 1rem;
-        padding-left: 1;
-    }
-    .Title3{
-        font-size: 1rem;
-    }
-    .Title3 a{
-        font-size: 1rem;
-    }
-    a{
-        font-size: 0.3rem;
-        padding-top: 0px;
-    }
-    #socialdata ul li a{
-        padding: 0px;
-        height: 1px;
-    }
-    #psicologicalProfile{
-        font-size: 0.3rem;
-    }
-    .SocialButton{
-        height: 0px;
-    }
-    #socialData li{
-        height: 4rem;
-        width: 1rem;
-    }
-    .socialData2{
-        height: 100%;
-    }
-    #linkedin{
-        font-size: 10px;
-        height: 30px;
-    }
-    .icons{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .icons a{
-        font-size: 1.5vw;
-        padding-bottom: 0.3rem;
-    }
-    #icons img{
-        width:2.2vw;
-        height:2.3vw;
-        display: flex;
-        flex-grow:;
-    }
-    #profileDescription{
-        font-size: 1rem;
-    }
-    #psicologicalProfile{
-        font-size: 1rem;
-    }
-    div.Comportament h3{
-        font-size: 0.9rem;
-    }
-    div.DivPercent{
-        font-size: 1.3rem;
-    }
-    Div.DivCenterLink a{
-        font-size: 1rem;
-    }
-    #principal{
-        width: 0%;
-    }
-    
-    #principal h1{
-        font-size: 1.4rem;
-        padding-right: 1rem;
-    }
-    #principal h3{
-        font-size: 1.4rem;
-    }
-    #principal h4{
-        font-size: 1.2rem;
-    }
-    #principal li{
-        font-size: 1.0rem;
-    }
-    ul {
-        padding-inline-start: 2rem;
-    }
-    p{
-        font-size: 1rem;
-    }
-    .Articles{
-        font-size: 30rem;
-    }
-    div.DivPercent{
-        margin: 0rem;
-    }
-    #theLogisticImg{
-        height: 8%;
-    }
-}
-/* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 725px) {
-    p{
-        font-size: 20rem;
-    }
-    aside{
-        width: 30%;
-    }
-    #backgroudProfilePicture{
-        text-align: center;
-        border-radius : 43% 0% 0% 0%;
-    }
-    #name{
-        font-size: 1.3rem;
-    }
-    #role{
-        font-size: 1.0rem;
-    }
-    .Title2{
-        font-size: 1rem;
-        padding-left: 1;
-    }
-    .Title3{
-        font-size: 1rem;
-    }
-    .Title3 a{
-        font-size: 1rem;
-    }
-    a{
-        font-size: 0.3rem;
-        padding-top: 0px;
-    }
-    #socialdata ul li a{
-        padding: 0px;
-        height: 1px;
-    }
-    #psicologicalProfile{
-        font-size: 0.3rem;
-    }
-    .SocialButton{
-        height: 0px;
-    }
-    #socialData li{
-        height: 4rem;
-        width: 1rem;
-    }
-    .socialData2{
-        height: 100%;
-    }
-    #linkedin{
-        font-size: 10px;
-        height: 30px;
-    }
-    .icons{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .icons a{
-        font-size: 1.6vw;
-        padding-bottom: 0.2rem;
-    }
-    #icons img{
-        width:2.5vw;
-        height:2.5vw;
-        display: flex;
-        flex-grow:;
-    }
-    #profileDescription{
-        font-size: 0.6rem;
-    }
-    #psicologicalProfile{
-        font-size: 1rem;
-    }
-    div.Comportament h3{
-        font-size: 0.9rem;
-    }
-    div.DivPercent{
-        font-size: 1rem;
-    }
-    Div.DivCenterLink a{
-        font-size: 1rem;
-    }
-    #principal{
-        width: 0%;
-    }
-    
-    #principal h1{
-        font-size: 1.4rem;
-        padding-right: 1rem;
-    }
-    #principal h3{
-        font-size: 1.4rem;
-    }
-    #principal h4{
-        font-size: 1.2rem;
-    }
-    #principal li{
-        font-size: 1.0rem;
-    }
-    ul {
-        padding-inline-start: 2rem;
-    }
-    p{
-        font-size: 1rem;
-    }
-    .Articles{
-        font-size: 30rem;
-    }
-    div.DivPercent{
-        margin: 0rem;
-    }  
-}
-
-/* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (max-width: 560px) {
-    p{
-        font-size: 20rem;
-    }
-    aside{
-        width: 40%;
-    }
-    #backgroudProfilePicture{
-        text-align: center;
-        border-radius : 50% 0% 0% 0%;
-    }
-    #name{
-        font-size: 1.3rem;
-    }
-    #role{
-        font-size: 1.0rem;
-    }
-    .Title2{
-        font-size: 1rem;
-        padding-left: 1;
-    }
-    .Title3{
-        font-size: 1rem;
-    }
-    .Title3 a{
-        font-size: 1rem;
-    }
-    #socialdata ul li a{
-        padding: 0px;
-        height: 1px;
-    }
-    #psicologicalProfile{
-        font-size: 0.3rem;
-    }
-    .SocialButton{
-        height: 0px;
-    }
-    #socialData li{
-        height: 4rem;
-        width: 1rem;
-    }
-    .socialData2{
-        height: 100%;
-    }
-    #linkedin{
-        font-size: 10px;
-        height: 30px;
-    }
-    .icons{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .icons a{
-        font-size: 1.6vw;
-        padding-bottom: 0.2rem;
-    }
-    #icons img{
-        width:2.5vw;
-        height:2.5vw;
-        display: flex;
-        flex-grow:;
-    }
-    #profileDescription{
-        font-size: 0.6rem;
-    }
-    #psicologicalProfile{
-        font-size: 1rem;
-    }
-    div.Comportament h3{
-        font-size: 0.9rem;
-    }
-    div.DivPercent{
-        font-size: 0.65rem;
-    }
-    Div.DivCenterLink a{
-        font-size: 1rem;
-    }
-    #principal{
-        width: 0%;
-    }
-    
-    #principal h1{
-        font-size: 1.4rem;
-        padding-right: 1rem;
-    }
-    #principal h3{
-        font-size: 1.4rem;
-    }
-    #principal h4{
-        font-size: 1.2rem;
-    }
-    #principal li{
-        font-size: 1.0rem;
-    }
-    ul {
-        padding-inline-start: 2rem;
-    }
-    p{
-        font-size: 1rem;
-    }
-    .Articles{
-        font-size: 30rem;
-    }
-    div.DivPercent{
-        margin: 0rem;
-    }  
-}
-
-/* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 471px) {
-    p{
-        font-size: 14px;
-    }
-    p{
-        font-size: 20rem;
-    }
-    #backgroudProfilePicture{
-        text-align: center;
-        border-radius : 44% 0% 0% 0%;
-    }
-    aside{
-        width: 45%;
-    }
-    #name{
-        font-size: 1.3rem;
-    }
-    #role{
-        font-size: 1.0rem;
-    }
-    .Title2{
-        font-size: 1rem;
-        padding-left: 1;
-    }
-    .Title3{
-        font-size: 1rem;
-    }
-    #socialdata ul li a{
-        padding: 0px;
-        height: 1px;
-    }
-    .socialData2{
-        min-height: 100vh;
-    }
-    #psicologicalProfile{
-        font-size: 0.3rem;
-    }
-    .SocialButton{
-        height: 0px;
-    }
-    #socialData li{
-        height: 4rem;
-        width: 1rem;
-    }
-    #linkedin{
-        font-size: 10px;
-        height: 30px;
-    }
-    .icons{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .icons a{
-        font-size: 1.8vw;
-    }
-    #icons img{
-        width:2.5vw;
-        height:2.6vw;
-        display: flex;
-        flex-grow:;
-    }
-    
-    #profileDescription{
-        font-size: 0.6rem;
-    }
-    #psicologicalProfile{
-        font-size: 1rem;
-    }
-    div.Comportament h3{
-        font-size: 0.9rem;
-    }
-    div.DivPercent{
-        font-size: 0.65rem;
-    }
-    Div.DivCenterLink a{
-        font-size: 1rem;
-    }
-    #principal{
-        width: 0%;
-    }
-    
-    #principal h1{
-        font-size: 1.4rem;
-        padding-right: 1rem;
-    }
-    #principal h3{
-        font-size: 1.4rem;
-    }
-    #principal h4{
-        font-size: 1.2rem;
-    }
-    #principal li{
-        font-size: 1.0rem;
-    }
-    ul {
-        padding-inline-start: 2rem;
-    }
-    p{
-        font-size: 1rem;
-    }
-    .Articles{
-        font-size: 30rem;
-    }
-    div.DivPercent{
-        margin: 0rem;
-    }
-}
-/*pixel 2 +*/
-@media only screen and (min-width: 375px) and (max-width: 414px) {
-    p{
-        font-size: 20rem;
-    }
-    #backgroudProfilePicture{
-        text-align: center;
-        border-radius : 44% 0% 0% 0%;
-    }
-    aside{
-        width: 45%;
-    }
-    #name{
-        font-size: 1.3rem;
-    }
-    #role{
-        font-size: 1.0rem;
-    }
-    .Title2{
-        font-size: 1rem;
-        padding-left: 1;
-    }
-    .Title3{
-        font-size: 1rem;
-    }
-    #socialdata ul li a{
-        padding: 0px;
-        height: 1px;
-    }
-    .socialData2{
-        min-height: 100vh;
-    }
-    #psicologicalProfile{
-        font-size: 0.3rem;
-    }
-    .SocialButton{
-        height: 0px;
-    }
-    #socialData li{
-        height: 4rem;
-        width: 1rem;
-    }
-    #linkedin{
-        font-size: 10px;
-        height: 30px;
-    }
-    .icons{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .icons a{
-        font-size: 1.8vw;
-        padding-bottom: 0.2vw;
-    }
-    #icons img{
-        display :none;
-        /*width:13px;
-        height:13px;
-        display: flex;
-        flex-grow:;*/
-    }
-    #profileDescription{
-        font-size: 0.6rem;
-    }
-    #psicologicalProfile{
-        font-size: 1rem;
-    }
-    div.Comportament h3{
-        font-size: 0.9rem;
-    }
-    div.DivPercent{
-        font-size: 0.65rem;
-    }
-    Div.DivCenterLink a{
-        font-size: 1rem;
-    }
-    #principal{
-        width: 0%;
-    }
-    
-    #principal h1{
-        font-size: 1.4rem;
-        padding-right: 1rem;
-    }
-    #principal h3{
-        font-size: 1.4rem;
-    }
-    #principal h4{
-        font-size: 1.2rem;
-    }
-    #principal li{
-        font-size: 1.0rem;
-    }
-    ul {
-        padding-inline-start: 2rem;
-    }
-    p{
-        font-size: 1rem;
-    }
-    .Articles{
-        font-size: 30rem;
-    }
-    div.DivPercent{
-        margin: 0rem;
-    }
-}
-
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 375px) {
-    p{
-        font-size: 20rem;
-    }
-    #backgroudProfilePicture{
-        text-align: center;
-        border-radius : 30% 0% 0% 0%;
-    }
-    aside{
-        width: 20vw;
-    }
-    #name{
-        font-size: 1.3rem;
-    }
-    #role{
-        font-size: 1.0rem;
-    }
-    .Title2{
-        font-size: 1rem;
-        padding-left: 1;
-    }
-    .Title3{
-        font-size: 1rem;
-    }
-    .Title3 a{
-        font-size: 1rem;
-    }
-    #socialdata ul li a{
-        padding: 0px;
-        height: 1px;
-    }
-    .socialData2{
-        min-height: 100vh;
-    }
-    #psicologicalProfile{
-        font-size: 0.3rem;
-    }
-    .SocialButton{
-        height: 0px;
-    }
-    #socialData li{
-        height: 4rem;
-        width: 1rem;
-    }
-    #linkedin{
-        font-size: 10px;
-        height: 30px;
-    }
-    .icons{
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-    .icons a{
-        font-size: 1.8vw;
-        padding-bottom: 0.15rem;
-    }
-    #icons img{
-        display: none;
-        /*width:11px;
-        height:11px;
-        display: flex;
-        flex-grow:;*/
-    }
-    #profileDescription{
-        font-size: 0.6rem;
-    }
-    #psicologicalProfile{
-        font-size: 1rem;
-    }
-    div.Comportament h3{
-        font-size: 0.9rem;
-    }
-    div.DivPercent{
-        font-size: 0.65rem;
-    }
-    Div.DivCenterLink a{
-        font-size: 1rem;
-    }
-    #principal{
-        width: 0%;
-    }
-    
-    #principal h1{
-        font-size: 1.4rem;
-        padding-right: 1rem;
-    }
-    #principal h3{
-        font-size: 1.4rem;
-    }
-    #principal h4{
-        font-size: 1.2rem;
-    }
-    #principal li{
-        font-size: 1.0rem;
-    }
-    ul {
-        padding-inline-start: 2rem;
-    }
-    p{
-        font-size: 1rem;
-    }
-    .Articles{
-        font-size: 30rem;
-    }
-    div.DivPercent{
-        margin: 0rem;
-    }
-
-}
-
 /* Aside*/
 aside {
-    width: 33vw;
+    width: 32vw;
     background: white;
     min-height: 100%;
     align-items: center;
 }
+aside h2{
+    font-size: 2vw;
+}
+aside p{
+    font-size: 1vw;
+}
 #intoDivLeft{
     background: black;
     width: 100%;
+}
+#name{
+    font-size: 4vw;
+}
+#role{
+    font-size: 2vw;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 .WordsAside{
     padding: 0% 2% 2% 2%;
@@ -924,13 +55,15 @@ aside {
 
 /* backgroud da imagem*/
 #backgroudProfilePicture{
-    height: 20vw;
-    width: 33vw;
+    height: 21vw;
+    width: 30vw;
     background:black;
     border-radius: 100% 0 0 0;
+    padding-left: 2vw;
 }
 .profilePicture{
     margin-bottom: 5vw ;
+    margin-left: 3vw;
     width: 20vw;
     height: 20vw;
     align-items: center;
@@ -969,19 +102,43 @@ aside {
     border-radius: 0px;
     margin: 0px;
 }
-#role{
-    font-weight: bolder;
-    text-decoration: underline;
-}
+
 #contacts{
     padding-left: 1vw;
 }
-
-#iconInfo a{
+#icons{
+    display: block;
+    flex-direction: column;
+    background: black;
+    padding-left: 4vw;
+    justify-content: ;
+    
+}
+.icon2 {
     display: flex;
-    flex-grow:;
-    text-decoration: none;
-    padding-bottom: 0.9vw;
+    justify-content: flex-start;
+}
+
+.links{
+    padding-top: 0.5vw;
+    padding-left: 1vw;
+}
+#icons img {
+    width: 2vw;
+    height: 2vw;
+}
+.icons{
+    text-align: left;
+    display:flex;
+    flex-direction: row;
+}
+#iconInfo a{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    display: flex;
+    padding-top:1vw;
+    padding-bottom: 1.2vw;
 }
 
 #data {
@@ -1024,7 +181,6 @@ aside {
     padding-top: 1vw;
 }
 
-
 .socialData{
     background: black;
     color: white;
@@ -1036,44 +192,37 @@ aside {
     color: white;
     text-align: left;
     padding-left: 5%;
-    padding-right: 3%;
-
+    padding-right: 5%;
 }
 .socialData2 p{
     padding-left: 3.1%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
 }
-.socialData2 a{
-    color:rgb(62, 62, 161);
-}
-div.icons{
-    background:black;
-}
+
 div.icons img{
     padding: 0.1vw;
+    width: 3vw;
 }
-div.Comportament{
-    background: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
+div.comportament2{
+    display: block;
+    text-align: left;
+    padding-left: 2vw;
 }
 div.Comportament img{
     width: 50%;
     height: 10%;
 }
 div.DivPercent{
-    width: 20%;
-    height: 30%;
+    width: 12vw;
     display: flex;
     justify-content: space-around;
-    margin: 1.0% 13.9% 1.0% 15%;
-    
+    font-size: 1.4vw;
+    font-weight: bolder;
+    padding-left: 0.7vw;
 }
-
-.icons a{
-    color:rgb(62, 62, 161) ;
+.percent{
+    margin-left:0.5vw;
 }
 #psicologicalProfile{
     background: black;
@@ -1105,7 +254,9 @@ Div.DivCenterLink{
     background: white(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
-
+#theLogisticImg {
+    height: 10vw;
+}
 
 /* Curriculo*/
 .Articles{
@@ -1144,4 +295,37 @@ div.Articles ul{
 }
 #principal li{
     padding-bottom: 5px;
+}
+@media only screen and (min-width: 900px) {
+    
+}
+@media only screen and (min-width: 868px) {
+    
+}
+@media only screen and (min-width: 725px) and (max-width: 868px) {
+    
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 725px) {
+    
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (max-width: 560px) {
+    
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 471px) {
+    
+}
+/*pixel 2 +*/
+@media only screen and (min-width: 375px) and (max-width: 414px) {
+   
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 375px) {
+
+
 }
