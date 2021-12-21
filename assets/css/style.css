@@ -92,6 +92,9 @@ aside p{
 .Title3{
     margin-top: 0px;
 }
+#theLogisticTitle{
+    padding-top: 1%;
+}
 #profileDescription{
     background: black;
     color: white;
@@ -302,7 +305,7 @@ div.Articles ul{
 @media only screen and (min-width: 868px) {
     
 }
-@media only screen and (min-width: 725px) and (max-width: 868px) {
+@media only screen and (max-width: 868px) {
     
 }
 /* Smaller than standard 960 (devices and browsers) */
@@ -320,12 +323,68 @@ div.Articles ul{
     
 }
 /*pixel 2 +*/
-@media only screen and (min-width: 375px) and (max-width: 414px) {
+@media only screen and (max-width: 414px) {
    
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 375px) {
-
-
+    
+    
+    body {
+        padding: 4%;
+    }
+    #principal {
+        width: 68%;
+    }
+    #principal h3 {
+        padding-bottom: 2vw;
+    }
+    h1 {
+        font-size: 3vw;
+        font-weight: bolder;
+    }
+    div.Articles ul {
+        margin: 0%;
+        font-size: 3vw;
+    }
+    div.Articles li {
+        margin: 0%;
+        font-size: 2.5vw;
+    }
+    aside h2 {
+        font-size: 2.5vw;
+    }
+    #role {
+        font-size: 2.5vw;
+        padding-bottom: 7%;
+    }
+    #icons img {
+        width: 4vw;
+        height: 4vw;
+    }
+    a {
+        font-size: 1.7vw;
+    }
+    #theLogisticTitle{
+        font-size: 2vw;
+    }
+    aside p {
+        font-size: 1.5vw;
+    }
+    div.Comportament img {
+        width: 80%;
+        height: 20%;
+    }
+    div.DivPercent {
+        width: 12vw;
+        display: flex;
+        justify-content: space-around;
+        font-size: 2vw;
+        font-weight: bolder;
+        padding-left: 4.9vw;
+    }
+    .percent {
+        margin-left: 1.3vw;
+    }
 }
