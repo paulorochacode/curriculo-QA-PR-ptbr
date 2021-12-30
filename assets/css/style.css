@@ -52,7 +52,6 @@ aside p{
 #gitIcon{
     border-radius: 10%;
 }
-
 /* backgroud da imagem*/
 #backgroudProfilePicture{
     height: 21vw;
@@ -334,6 +333,12 @@ div.Articles ul{
     body {
         padding: 4%;
     }
+    aside {
+        width: 33.7vw;
+    }
+    #backgroudProfilePicture {
+        width: 31.5vw;
+    }
     #principal {
         width: 68%;
     }
@@ -360,8 +365,14 @@ div.Articles ul{
         padding-bottom: 7%;
     }
     #icons img {
-        width: 4vw;
-        height: 4vw;
+        width: 3.5vw;
+        height: 3.5vw;
+    }
+    .links{
+        padding-left: 1%;
+    }
+    #icons {
+        padding-left: 0.5vw;
     }
     a {
         font-size: 1.7vw;
